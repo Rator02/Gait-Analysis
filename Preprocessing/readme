@@ -1,0 +1,7 @@
+i added a file description but i don't know where it went so.
+the code basically reads a csv file as a pandas dataframe, calculates the sample rate of the data, plots the raw data, parses it through a butterworth filter 
+(questionable, but some literature i've seen on Human Activity Recognition used a butterworth filter, so i'm using it, it's not hard to modify or replace), 
+and then plots the filtered data.
+download the entire "preprocessing" folder, copy it to desired directory, go to cmd and open that directory, "python main.py Acceleration_filename.csv" and the code works perfect
+so far.
+all the functions used are in preproc.py file in the "util" folder
