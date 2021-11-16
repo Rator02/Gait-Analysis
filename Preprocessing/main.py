@@ -11,8 +11,8 @@ def test_data(file_name):
 	file_path=os.path.join(cur_dir, 'data', file_name)
 	data=read_data(file_path, [1,2,3])
 	data.describe()
-	#fs = init_samplingRate(file_path)
-	fs = 600
+	fs = init_samplingRate(file_path)
+	#fs = 600
 	plot_lines(data, fs, 'Raw data')
 	butterworth_data = butt_filter(data, cutoff, fs)
 	plot_lines(butterworth_data, fs, 'Butterworth Filter, cutoff: 15Hz')
