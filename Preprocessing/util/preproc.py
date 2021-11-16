@@ -10,11 +10,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def read_data(file_path, columns):
 	'''
-	read files according to file_path and columns
-	args:
-		file_path, columns (list)
-	return:
-		data (numpy array)
+	read files according to file_path, returns data frame
 	'''
 	if not os.path.isfile(file_path):
 		raise AssertionError(file_path, 'not found')
