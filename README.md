@@ -1,2 +1,2 @@
 # Gait-Analysis
-Classification of path from two categories of upstairs and downstairs using Machine Learning Model
+Human Gait analysis is a field through which techniques for any disorder's prognosis can be developed by assessing minute changes in the human gait pattern. Through this project, we are stepping into the field of FFNN and trying to build a classification problem, trying to eventually predict the class of a "test human gait signal" from 'Upstairs' , 'Normal', and 'Downstairs'. We have acquired the signals from accelerometer and Gyroscope of mobile phones. 
